@@ -6,9 +6,9 @@ There is no sign-in: everyone who opens a site sees and edits the same list.
 
 | App | Folder | What it looks like | Live |
 | --- | --- | --- | --- |
-| **Tally** | `apps/tally` | One quiet list on warm paper, serif wordmark, green accent | LIVE_TALLY |
-| **Tally Board** | `apps/tally-board` | Cards in To do and Done columns, navy bar, indigo accent | LIVE_BOARD |
-| **Tally Lite** | `apps/tally-lite` | Plain text on a dark screen, monospaced, amber accent | LIVE_LITE |
+| **Tally** | `apps/tally` | One quiet list on warm paper, serif wordmark, green accent | https://todo-monorepo-tally.vercel.app |
+| **Tally Board** | `apps/tally-board` | Cards in To do and Done columns, navy bar, indigo accent | https://todo-monorepo-tally-board.vercel.app |
+| **Tally Lite** | `apps/tally-lite` | Plain text on a dark screen, monospaced, amber accent | https://todo-monorepo-tally-lite.vercel.app |
 
 Each app's `DESIGN.md` describes its palette, type and layout.
 
