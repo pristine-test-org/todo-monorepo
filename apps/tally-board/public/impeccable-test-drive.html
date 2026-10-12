@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tally Board - design test drive</title>
+    <style>
+      body {
+        margin: 0;
+        background: #eef1f8;
+        color: #172036;
+        font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      header {
+        background: #1b2340;
+        color: #f4f6fc;
+        padding: 1rem 1.5rem;
+        font-weight: 700;
+      }
+      main {
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      h1 {
+        margin: 0 0 1rem;
+        font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+        font-size: 2.25rem;
+        letter-spacing: -0.02em;
+        /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+        background: linear-gradient(90deg, #4f46e5, #e11d8f);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .note {
+        /* Intentional, for Impeccable's test drive: low-contrast text, light grey on the canvas. */
+        color: #c8c8c8;
+      }
+      .edge {
+        /* Intentional, for Impeccable's test drive: body text flush with the viewport edges. */
+        margin: 2rem calc(50% - 50vw);
+        padding: 0;
+      }
+      .card {
+        /* Intentional, for Impeccable's test drive: a colour that is not in DESIGN.md. */
+        background: #ffd23f;
+        padding: 1rem;
+        border-radius: 14px;
+      }
+      .bar {
+        height: 0.5rem;
+        width: 30%;
+        margin: 1.5rem 0;
+        background: #4f46e5;
+        /* Intentional, for Impeccable's test drive: a transition on a layout property. */
+        transition: width 0.3s;
+      }
+      .bar:hover {
+        width: 100%;
+      }
+      .back {
+        /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+        font-size: 10px;
+        color: #4f46e5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Tally Board</header>
+    <main>
+      <h1>Board check-in</h1>
+      <p>A short page that shows how Tally Board looks when a change is reviewed.</p>
+      <p class="note">Nothing here needs moving; this note is only here to be measured.</p>
+      <div class="card">
+        <strong>Two cards waiting</strong>
+        <p>Book the dentist, send the invoice.</p>
+      </div>
+      <div class="bar" aria-hidden="true"></div>
+      <p class="edge">Every card on the board is shared, so a card you add here shows up in the other Tally sites too.</p>
+      <a class="back" href="/">Back to the board</a>
+    </main>
+  </body>
+</html>
